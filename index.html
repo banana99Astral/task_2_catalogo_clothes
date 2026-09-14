@@ -1,0 +1,467 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURELLE — Timeless Femininity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+<!-- ============ NAV ============ -->
+<header id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#top" class="logo-mark">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cyccccc="20" r="19" stroke="currentColor" stroke-width="1"/>
+        <path d="M20 11 L27 29 M20 11 L13 29 M15.5 23 H24.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-text" id="logoText">AURELLE</span>
+    </a>
+    <nav class="main-links" id="mainNav">
+      <a href="#top">Home</a>
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#newsletter" class="nav-cta">Join the Circle</a>
+    <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="nav-overlay" id="navOverlay"></div>
+ 
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <svg class="hero-monogram" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M100 20 L165 180 M100 20 L35 180 M60 130 H140" stroke="currentColor" stroke-width="1"/>
+  </svg>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Classic elegance, made for her.</p>
+    <h1 class="hero-title">AURELLE</h1>
+    <p class="hero-sub">TIMELESS FEMININITY</p>
+    <p class="hero-tag">The Old Money Collection</p>
+    <a href="#collection" class="btn-outline"><span>Discover the Collection</span></a>
+  </div>
+  <div class="scroll-cue">
+    <span>SCROLL</span>
+    <span class="line"></span>
+  </div>
+</section>
+ 
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about-inner">
+    <div class="about-figure reveal">
+      <img src="images/remake.png" alt="The Aurelle Woman">
+    </div>
+    <div class="about-text reveal">
+      <span class="kicker">The Aurelle Woman</span>
+      <h2>THE AURELLE WOMAN</h2>
+      <p>A woman who values timeless elegance over passing trends. AURELLE creates refined pieces designed to make every moment feel effortlessly sophisticated.</p>
+      <p class="signature">— Established for those who dress with intention.</p>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ COLLECTION ============ -->
+<section class="collection" id="collection">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Women's Collection</span>
+      <h2>Six Essential Pieces</h2>
+      <p>Refined silhouettes, considered materials — the foundation of an effortlessly elegant wardrobe.</p>
+    </div>
+  </div>
+ 
+  <div class="container">
+    <div class="collection-grid">
+ 
+      <!-- 1 Tweed Blazer -->
+      <div class="product-card">
+        <div class="product-visual">
+         <img src="images/tweed-blazer.jpg" alt="Tweed Blazer">
+        </div>
+        <h3 class="product-name">Tweed Blazer</h3>
+        <p class="product-desc">A timeless tweed blazer with a refined silhouette, designed to bring effortless sophistication to any outfit.</p>
+        <div class="product-meta-row"><span>Sizes</span><span>XS · S · M · L · XL</span></div>
+        <div class="swatches" aria-label="Available colors: Ivory, Black, Ocher">
+          <span class="swatch" style="background:#F7F2E7"></span>
+          <span class="swatch" style="background:#1C1914"></span>
+          <span class="swatch" style="background:#B08A3E"></span>
+        </div>
+        <div class="product-footer">
+          <span class="price">$115</span>
+          <button class="add-bag" data-label="ADD TO BAG" data-added="ADDED ✓">ADD TO BAG</button>
+        </div>
+      </div>
+ 
+      <!-- 2 Silk Blouse -->
+      <div class="product-card">
+        <div class="product-visual">
+          <img src="images/silk-blouse.jpg" alt="Silk Blouse">
+        </div>
+        <h3 class="product-name">Silk Blouse</h3>
+        <p class="product-desc">A delicate silk blouse with a graceful silhouette, perfect for an elegant and effortlessly feminine look.</p>
+        <div class="product-meta-row"><span>Sizes</span><span>XS · S · M · L · XL</span></div>
+        <div class="swatches" aria-label="Available colors: White, Ivory, Ocher">
+          <span class="swatch" style="background:#FFFFFF"></span>
+          <span class="swatch" style="background:#F7F2E7"></span>
+          <span class="swatch" style="background:#B08A3E"></span>
+        </div>
+        <div class="product-footer">
+          <span class="price">$75</span>
+          <button class="add-bag" data-label="ADD TO BAG" data-added="ADDED ✓">ADD TO BAG</button>
+        </div>
+      </div>
+ 
+      <!-- 3 Pleated Midi Skirt -->
+      <div class="product-card">
+        <div class="product-visual">
+          <img src="images/pleated-midi-skirt.jpg" alt="Pleated Midi Skirt">
+        </div>
+        <h3 class="product-name">Pleated Midi Skirt</h3>
+        <p class="product-desc">An elegant pleated midi skirt designed with a graceful silhouette and timeless Old Money charm.</p>
+        <div class="product-meta-row"><span>Sizes</span><span>XS · S · M · L · XL</span></div>
+        <div class="swatches" aria-label="Available colors: Black, Ivory, Ocher">
+          <span class="swatch" style="background:#1C1914"></span>
+          <span class="swatch" style="background:#F7F2E7"></span>
+          <span class="swatch" style="background:#B08A3E"></span>
+        </div>
+        <div class="product-footer">
+          <span class="price">$90</span>
+          <button class="add-bag" data-label="ADD TO BAG" data-added="ADDED ✓">ADD TO BAG</button>
+        </div>
+      </div>
+ 
+      <!-- 4 Cashmere Cardigan -->
+      <div class="product-card">
+        <div class="product-visual">
+          <img src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=800&q=80" alt="Cashmere Cardigan">
+        </div>
+        <h3 class="product-name">Cashmere Cardigan</h3>
+        <p class="product-desc">A soft cashmere cardigan with a classic fit, perfect for creating a sophisticated and cozy feminine look.</p>
+        <div class="product-meta-row"><span>Sizes</span><span>XS · S · M · L · XL</span></div>
+        <div class="swatches" aria-label="Available colors: Cream, Black, Beige">
+          <span class="swatch" style="background:#EFE7D4"></span>
+          <span class="swatch" style="background:#1C1914"></span>
+          <span class="swatch" style="background:#DCD0B2"></span>
+        </div>
+        <div class="product-footer">
+          <span class="price">$105</span>
+          <button class="add-bag" data-label="ADD TO BAG" data-added="ADDED ✓">ADD TO BAG</button>
+        </div>
+      </div>
+ 
+      <!-- High-Waist Trousers -->
+<div class="product-card">
+  <div class="product-visual">
+    <img src="images/high-waist-trousers.jpg" alt="High-Waist Trousers">
+  </div>
+  <h3 class="product-name">High-Waist Trousers</h3>
+  <p class="product-desc">Tailored wide-leg trousers featuring a high waistband and sharp front pleats for a refined, classic silhouette.</p>
+  <div class="product-meta-row"><span>Sizes</span><span>34–42</span></div>
+  <div class="swatches" aria-label="Available colors: Black, Cream, Navy">
+    <span class="swatch" style="background:#111111"></span>
+    <span class="swatch" style="background:#F5F2EB"></span>
+    <span class="swatch" style="background:#1B263B"></span>
+  </div>
+  <div class="product-footer">
+    <span class="price">$140</span>
+    <button class="add-bag" data-label="ADD TO BAG" data-added="ADDED ✓">ADD TO BAG</button>
+  </div>
+</div>
+ 
+   <!-- 6 Classic Loafers -->
+<div class="product-card">
+  <div class="product-visual">
+    <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80" alt="Classic Loafers">
+  </div>
+  <h3 class="product-name">Classic Loafers</h3>
+  <p class="product-desc">Polished leather loafers with a timeless design, created to complete an effortlessly elegant outfit.</p>
+  <div class="product-meta-row"><span>Sizes</span><span>35–41</span></div>
+  <div class="swatches" aria-label="Available colors: Black, Brown, Ocher">
+    <span class="swatch" style="background:#1C1914"></span>
+    <span class="swatch" style="background:#6B4A2E"></span>
+    <span class="swatch" style="background:#B08A3E"></span>
+  </div>
+  <div class="product-footer">
+    <span class="price">$125</span>
+    <button class="add-bag" data-label="ADD TO BAG" data-added="ADDED ✓">ADD TO BAG</button>
+  </div>
+</div>
+ 
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ FEATURED OUTFIT ============ -->
+<section class="featured">
+  <div class="container featured-inner">
+    <div class="featured-visual reveal">
+      <img src="images/finish-img.png" alt="The Aurelle Look">
+    </div>
+    <div class="featured-text reveal">
+      <span class="kicker">Featured Outfit</span>
+      <h2>THE AURELLE LOOK</h2>
+      <p class="lead">Effortless elegance for every occasion.</p>
+      <ul class="outfit-list">
+        <li><span>Tweed Blazer</span><span>$115</span></li>
+        <li><span>Silk Blouse</span><span>$75</span></li>
+        <li><span>Pleated Midi Skirt</span><span>$90</span></li>
+        <li><span>Classic Loafers</span><span>$125</span></li>
+      </ul>
+      <a href="#collection" class="btn-outline on-dark"><span>Shop the Look</span></a>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ STYLE EDIT ============ -->
+<section class="style-edit">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Style Edit</span>
+      <h2>THE ART OF DRESSING WELL</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="principles">
+      <div class="principle">
+        <span class="num">I.</span>
+        <h3>Less, But Better</h3>
+      </div>
+      <div class="principle">
+        <span class="num">II.</span>
+        <h3>Timeless Over Trendy</h3>
+      </div>
+      <div class="principle">
+        <span class="num">III.</span>
+        <h3>Elegance in Every Detail</h3>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ WHY AURELLE ============ -->
+<section class="why">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">Why Aurelle</span>
+      <h2>Considered, Not Trend-Driven</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"/><path d="M12 7 V12 L15 14"/></svg>
+        </div>
+        <h3>Timeless Design</h3>
+        <p>Pieces designed to remain beautiful beyond the season.</p>
+      </div>
+      <div class="why-item">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 3 L20 7 V12 C20 17 16.5 20 12 21 C7.5 20 4 17 4 12 V7 Z"/></svg>
+        </div>
+        <h3>Refined Quality</h3>
+        <p>Thoughtfully selected materials and elegant craftsmanship.</p>
+      </div>
+      <div class="why-item">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 20 C12 20 4 15 4 9 C4 6 6 4 9 4 C10.5 4 12 5 12 6.5 C12 5 13.5 4 15 4 C18 4 20 6 20 9 C20 15 12 20 12 20 Z"/></svg>
+        </div>
+        <h3>Effortless Femininity</h3>
+        <p>Classic silhouettes designed to celebrate feminine elegance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- ============ NEWSLETTER ============ -->
+<section class="newsletter" id="newsletter">
+  <div class="container newsletter-inner">
+    <h2>JOIN THE AURELLE CIRCLE</h2>
+    <p>Discover new collections, timeless styling inspiration and exclusive updates.</p>
+    <form class="sub-form" id="subForm">
+      <input type="email" required placeholder="Your email address" aria-label="Your email address">
+      <button type="submit">SUBSCRIBE</button>
+    </form>
+    <p class="sub-feedback" id="subFeedback">Welcome to the Circle. Thank you for subscribing.</p>
+  </div>
+</section>
+ 
+<!-- ============ FOOTER ============ -->
+<footer id="contact">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text on-dark">AURELLE</span>
+        <p>Timeless elegance, made for her.</p>
+      </div>
+      <div class="footer-col">
+        <h4>NAVIGATE</h4>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>CONTACT</h4>
+        <ul>
+          <li><a href="mailto:hello@aurelle.com">hello@aurelle.com</a></li>
+          <li><a href="#">Colombia · Riohacha · La Guajira</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AURELLE. ALL RIGHTS RESERVED.</span>
+      <span>SCHOOL PROJECT EDITION</span>
+    </div>
+  </div>
+</footer>
+ 
+<script>
+  const header = document.getElementById('siteHeader');
+  const onScroll = () => {
+    if(window.scrollY > 40){ header.classList.add('scrolled'); }
+    else{ header.classList.remove('scrolled'); }
+  };
+  window.addEventListener('scroll', onScroll);
+  onScroll();
+ 
+  const burger = document.getElementById('burgerBtn');
+  const nav = document.getElementById('mainNav');
+  const overlay = document.getElementById('navOverlay');
+  function closeNav(){
+    nav.classList.remove('open');
+    overlay.classList.remove('show');
+    burger.setAttribute('aria-expanded','false');
+  }
+  burger.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('open');
+    overlay.classList.toggle('show', isOpen);
+    burger.setAttribute('aria-expanded', String(isOpen));
+  });
+  overlay.addEventListener('click', closeNav);
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
+ 
+  const revealEls = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, {threshold:0.2});
+  revealEls.forEach(el => io.observe(el));
+ 
+  document.querySelectorAll('.add-bag').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if(btn.classList.contains('added')) return;
+      btn.textContent = btn.dataset.added;
+      btn.classList.add('added');
+      setTimeout(() => {
+        btn.textContent = btn.dataset.label;
+        btn.classList.remove('added');
+      }, 1800);
+    });
+  });
+ 
+  const subForm = document.getElementById('subForm');
+  const subFeedback = document.getElementById('subFeedback');
+  subForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    subFeedback.classList.add('show');
+    subForm.querySelector('input').value = '';
+  });
+
+// ============ CARRUSEL CON CONTROL POR ÍNDICES (SIN TRABARSE) ============
+const collectionGrid = document.querySelector('.collection-grid');
+const cards = document.querySelectorAll('.product-card');
+let currentIndex = 0;
+let autoScrollInterval;
+
+// Función para centrar un producto específico según su índice
+function scrollToCard(index) {
+  if (index < 0) index = 0;
+  if (index >= cards.length) index = cards.length - 1;
+
+  currentIndex = index;
+
+  // Calcula el desplazamiento exacto para centrar la tarjeta indicada
+  const card = cards[currentIndex];
+  const gridWidth = collectionGrid.clientWidth;
+  const cardLeft = card.offsetLeft;
+  const cardWidth = card.offsetWidth;
+
+  const targetScroll = cardLeft - (gridWidth / 2) + (cardWidth / 2);
+
+  collectionGrid.scrollTo({
+    left: targetScroll,
+    behavior: 'smooth'
+  });
+}
+
+// Actualiza qué tarjeta tiene la clase 'active' basándose en la posición del scroll
+function updateActiveCard() {
+  const gridRect = collectionGrid.getBoundingClientRect();
+  const gridCenter = gridRect.left + gridRect.width / 2;
+
+  let closestCard = null;
+  let minDistance = Infinity;
+
+  cards.forEach((card, idx) => {
+    const cardRect = card.getBoundingClientRect();
+    const cardCenter = cardRect.left + cardRect.width / 2;
+    const distance = Math.abs(gridCenter - cardCenter);
+
+    if (distance < minDistance) {
+      minDistance = distance;
+      closestCard = card;
+      currentIndex = idx; // Mantiene sincronizado el índice actual al desplazar manualmente
+    }
+  });
+
+  cards.forEach(card => card.classList.remove('active'));
+  if (closestCard) {
+    closestCard.classList.add('active');
+  }
+}
+
+// Iniciar auto-scroll cada 3 segundos
+function startAutoScroll() {
+  stopAutoScroll();
+  autoScrollInterval = setInterval(() => {
+    // Si estamos en el último producto, vuelve al primero (0); si no, avanza al siguiente
+    let nextIndex = (currentIndex + 1) % cards.length;
+    scrollToCard(nextIndex);
+  }, 2000);
+}
+
+function stopAutoScroll() {
+  if (autoScrollInterval) {
+    clearInterval(autoScrollInterval);
+  }
+}
+
+// Escuchar evento de scroll para actualizar el resaltado en tiempo real
+collectionGrid.addEventListener('scroll', updateActiveCard);
+
+// Iniciar al cargar
+startAutoScroll();
+updateActiveCard();
+
+// Pausar durante la interacción manual del usuario
+collectionGrid.addEventListener('mouseenter', stopAutoScroll);
+collectionGrid.addEventListener('mouseleave', startAutoScroll);
+collectionGrid.addEventListener('touchstart', stopAutoScroll, { passive: true });
+collectionGrid.addEventListener('touchend', startAutoScroll);
+</script>
+ 
+</body>
+</html>
